@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BattleShipClasses
 {
-    public interface IShip //interface "ship" to establish properties
+    public interface IShip
     {
         string Type { get; set; }
         int Length { get; set; }

@@ -6,7 +6,18 @@ using System.Threading.Tasks;
 
 namespace GridClasses
 {
-    class GridExtention
+    public static class GridExtention
     {
+        public static List<GridPieces> Range(this List<GridPieces> panels,
+                                     int xFirstPosition,
+                                     int yFirstPosition,
+                                     int xLastPosition,
+                                     int yLastPosition)
+        {
+            return panels.Where(piece => piece.Coordinates.xCord >= xFirstPosition
+                                     && piece.Coordinates.yCord >= yFirstPosition
+                                     && piece.Coordinates.xCord <= xLastPosition
+                                     && piece.Coordinates.yCord <= yLastPosition).ToList();
+        }
     }
 }

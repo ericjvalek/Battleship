@@ -27,7 +27,7 @@ namespace GridClasses
           //  get
          //  {
                 //Set Space Description
-              //  return DescriptionAttribute.GetCustomAttributes(SpaceOccupation);
+              //  
          //   }
        // }
         //check if space is occupied

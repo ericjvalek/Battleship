@@ -12,6 +12,10 @@ namespace PlayerClass
 {
     public class Player
     {
+
+        public List<GridPieces> _grid = new List<GridPieces>();
+        private IShip _ship;
+
         public string Name { get; set; }
         public GameBoard Gameboard { get; set; }
         public FiringBoard FiringBoard { get; set; }
@@ -37,15 +41,16 @@ namespace PlayerClass
             Gameboard = new GameBoard();
             FiringBoard = new FiringBoard();
         }
-    public void PutShipsOnBoard()
-    {
-        var randNum = new Random();
-        //Create a loop that checks the board for random coordinates
-        foreach (IShip ship in Ship)
+        public void PutShipsOnBoard()
         {
+          
+            Random randNum = new Random();
+            //Create a loop that checks the board for random coordinates
+            foreach (IShip ship in Ship)
+            {
                 //make sure that you check each gridPiece is empty for all ships
-                bool shipsLeft = true;
-                while (shipsLeft)
+                bool openPosition = true;
+                while (openPosition)
                 {
                     //Create variables for your Range method to check if spaces are empty
                     int xFirstPosition = randNum.Next(1, 11);
@@ -57,35 +62,48 @@ namespace PlayerClass
                     //Create a list to capture gridPositions
                     List<int> gridPosition = new List<int>();
                     //Change the orientation
-                    if(orientationVariable == 0)
+                    if (orientationVariable == 0)
                     {
-                        for(int i = 1; i < ship.Length; i++)
+                        for (int i = 1; i < ship.Length; i++)
                         {
                             yLastPostion++;
                         }
                     }
                     else
                     {
-                        for(int i = 1; i < ship.Length; i++)
+                        for (int i = 1; i < ship.Length; i++)
                         {
                             xLastPosition++;
                         }
                     }
-                 //Make sure the the gridPiece is in the grid 
-                 if(xLastPosition > 10 || yLastPostion > 10)
+                    //Make sure the the gridPiece is in the grid 
+                    if (xLastPosition > 10 || yLastPostion > 10)
                     {
                         //If it is outside the grid restart the loop with a new random number
-                        shipsLeft = true;
+                        openPosition = true;
                         continue;
                     }
-                    //Check to see if the gridPositions you have are empty 
-                    var currentPositions = GridExtention.Range(xFirstPosition,
+                    //Check to see if the gridPositions you have are empty with Range method
+                    var currentPositions = GridExtention.Range(_grid, xFirstPosition,
                                                                yFirstPosition,
                                                                xLastPosition,
                                                                yLastPostion);
+                    //Double check that the position is empty
+                    if (currentPositions.Any(x => x.ISOccupied))
+                    {
+                        openPosition = true;
+                        continue;
+                    }
+
+                    foreach ( IShip gridPiece in currentPositions)
+                    {
+                        gridPiece.SpaceOccupation = _ship.SpaceOccupation;
+                    }
+                    openPosition =  false;
+                    }
 
                 }
+            }
         }
-    }
     }
 }
