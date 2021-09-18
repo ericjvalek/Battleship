@@ -1,0 +1,6 @@
+C:\Users\kpak2\source\repos\Battleship\BattleShipClasses\bin\Debug\BattleShipClasses.dll
+C:\Users\kpak2\source\repos\Battleship\BattleShipClasses\bin\Debug\BattleShipClasses.pdb
+C:\Users\kpak2\source\repos\Battleship\BattleShipClasses\obj\Debug\BattleShipClasses.csproj.AssemblyReference.cache
+C:\Users\kpak2\source\repos\Battleship\BattleShipClasses\obj\Debug\BattleShipClasses.csproj.CoreCompileInputs.cache
+C:\Users\kpak2\source\repos\Battleship\BattleShipClasses\obj\Debug\BattleShipClasses.dll
+C:\Users\kpak2\source\repos\Battleship\BattleShipClasses\obj\Debug\BattleShipClasses.pdb

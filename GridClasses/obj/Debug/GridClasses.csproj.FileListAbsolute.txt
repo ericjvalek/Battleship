@@ -1,0 +1,9 @@
+C:\Users\kpak2\source\repos\Battleship\GridClasses\obj\Debug\GridClasses.csproj.CoreCompileInputs.cache
+C:\Users\kpak2\source\repos\Battleship\GridClasses\obj\Debug\GridClasses.csproj.AssemblyReference.cache
+C:\Users\kpak2\source\repos\Battleship\GridClasses\bin\Debug\GridClasses.dll
+C:\Users\kpak2\source\repos\Battleship\GridClasses\bin\Debug\GridClasses.pdb
+C:\Users\kpak2\source\repos\Battleship\GridClasses\bin\Debug\BattleShipClasses.dll
+C:\Users\kpak2\source\repos\Battleship\GridClasses\bin\Debug\BattleShipClasses.pdb
+C:\Users\kpak2\source\repos\Battleship\GridClasses\obj\Debug\GridClasses.csproj.CopyComplete
+C:\Users\kpak2\source\repos\Battleship\GridClasses\obj\Debug\GridClasses.dll
+C:\Users\kpak2\source\repos\Battleship\GridClasses\obj\Debug\GridClasses.pdb

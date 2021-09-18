@@ -1,0 +1,11 @@
+C:\Users\kpak2\source\repos\Battleship\Player\obj\Debug\PlayerClass.csproj.CoreCompileInputs.cache
+C:\Users\kpak2\source\repos\Battleship\Player\bin\Debug\Player.dll
+C:\Users\kpak2\source\repos\Battleship\Player\bin\Debug\Player.pdb
+C:\Users\kpak2\source\repos\Battleship\Player\bin\Debug\BattleShipClasses.dll
+C:\Users\kpak2\source\repos\Battleship\Player\bin\Debug\GridClasses.dll
+C:\Users\kpak2\source\repos\Battleship\Player\bin\Debug\BattleShipClasses.pdb
+C:\Users\kpak2\source\repos\Battleship\Player\bin\Debug\GridClasses.pdb
+C:\Users\kpak2\source\repos\Battleship\Player\obj\Debug\PlayerClass.csproj.AssemblyReference.cache
+C:\Users\kpak2\source\repos\Battleship\Player\obj\Debug\PlayerClass.csproj.CopyComplete
+C:\Users\kpak2\source\repos\Battleship\Player\obj\Debug\Player.dll
+C:\Users\kpak2\source\repos\Battleship\Player\obj\Debug\Player.pdb
