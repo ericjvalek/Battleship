@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BattleshipUI.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -54,6 +55,10 @@
     <ProjectReference Include="..\BattleShipClasses\BattleShipClasses.csproj">
       <Project>{C1E09621-A862-4530-B0C8-E0E18EB8A6AB}</Project>
       <Name>BattleShipClasses</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GridClasses\GridClasses.csproj">
+      <Project>{bf098908-571d-49d6-a468-9d3b6ebc56b2}</Project>
+      <Name>GridClasses</Name>
     </ProjectReference>
     <ProjectReference Include="..\Player\PlayerClass.csproj">
       <Project>{758FC573-E235-42A0-AE7F-C958D7A514E2}</Project>

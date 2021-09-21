@@ -1,0 +1,14 @@
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\bin\Debug\BattleShip.exe.config
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\bin\Debug\BattleShip.exe
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\bin\Debug\BattleShip.pdb
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\bin\Debug\BattleShipClasses.dll
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\bin\Debug\Player.dll
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\bin\Debug\GridClasses.dll
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\bin\Debug\BattleShipClasses.pdb
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\bin\Debug\Player.pdb
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\bin\Debug\GridClasses.pdb
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\obj\Debug\BattleShipConsole.csproj.AssemblyReference.cache
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\obj\Debug\BattleShipConsole.csproj.CoreCompileInputs.cache
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\obj\Debug\BattleShipConsole.csproj.CopyComplete
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\obj\Debug\BattleShip.exe
+C:\Users\kpak2\source\repos\Battleship\BattleShipConsole\obj\Debug\BattleShip.pdb

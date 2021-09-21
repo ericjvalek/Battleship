@@ -13,12 +13,11 @@ namespace PlayerClass
     public class Player
     {
 
-        public List<GridPieces> _grid = new List<GridPieces>();
-        private IShip _ship;
+      
 
         public string Name { get; set; }
         public GameBoard Gameboard { get; set; }
-        public FiringBoard FiringBoard { get; set; }
+       
         public List<IShip> Ship { get; set; }
         public bool HasLost
         {
@@ -39,7 +38,7 @@ namespace PlayerClass
                 new Submarine()
             };
             Gameboard = new GameBoard();
-            FiringBoard = new FiringBoard();
+            
         }
         public void PutShipsOnBoard()
         {
@@ -60,7 +59,8 @@ namespace PlayerClass
                     //Create variable to change the horizontal and verticle orientation
                     int orientationVariable = randNum.Next(1 - 101) % 2;
                     //Create a list to capture gridPositions
-                    List<int> gridPosition = new List<int>();
+                    List<GridPieces> _grid = new List<GridPieces>();
+                   
                     //Change the orientation
                     if (orientationVariable == 0)
                     {
@@ -95,7 +95,7 @@ namespace PlayerClass
                         continue;
                     }
 
-                    foreach ( IShip gridPiece in currentPositions)
+                    foreach (GridPieces gridPiece in currentPositions)
                     {
                         gridPiece.SpaceOccupation = _ship.SpaceOccupation;
                     }
@@ -105,5 +105,7 @@ namespace PlayerClass
                 }
             }
         }
+
+    
     }
-}
+

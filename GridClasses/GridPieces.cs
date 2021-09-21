@@ -22,15 +22,6 @@ namespace GridClasses
             SpaceOccupation = SpaceOccupation.EmptySpace;
         }
 
-        //public string SpaceDescription
-       // {
-          //  get
-         //  {
-                //Set Space Description
-              //  
-         //   }
-       // }
-        //check if space is occupied
         public bool ISOccupied
         {
             get
